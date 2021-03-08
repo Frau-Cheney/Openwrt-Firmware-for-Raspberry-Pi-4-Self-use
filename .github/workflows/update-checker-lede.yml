@@ -5,11 +5,11 @@
 # See /LICENSE for more information.
 #
 # https://github.com/P3TERX/Actions-OpenWrt
-# File: .github/workflows/update-checker.yml
+# File: .github/workflows/update-checker-lede.yml
 # Description: Source code update checker
 #
 
-name: Update Checker
+name: Update Checker-lede
 
 env:
   REPO_URL: https://github.com/coolsnowwolf/lede
