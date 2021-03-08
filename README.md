@@ -1,4 +1,4 @@
-自动编译Openwrt-for-Raspberry-Pi-4B，添加了Passwall和SSR-Plus，仅勾选了常用的几个插件，模板fork自P3TERX/Actions-OpenWrt,
+自动编译Openwrt-for-Raspberry-Pi-4B，添加了Passwall和SSR-Plus，仅勾选了常用的几个插件，模板fork自P3TERX/Actions-OpenWrt。
 # Actions-OpenWrt
 
 
