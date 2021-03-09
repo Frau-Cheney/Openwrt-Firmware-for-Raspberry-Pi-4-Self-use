@@ -1,7 +1,7 @@
 自动编译Openwrt-for-Raspberry-Pi-4B，添加了helloword工具，仅勾选了常用的几个插件，模板fork自P3TERX/Actions-OpenWrt。
-使用时遇到的问题及解决方法：
-1.只能访问外网，无法访问国内网站。解决方法：将iptables -t nat -I POSTROUTING -j MASQUERADE复制到网络-防火墙-自定义规则，重启防火墙。
-2.路由间歇性掉线，联网出现问题。解决方法：将网络-接口-eth0-修改-物理设置-取消勾选桥接接口，保存并应用，然后将iptables -t nat -I POSTROUTING -o eth0 -j MASQUERADE复制到网络-防火墙-自定义规则，重启防火墙。
+#使用时遇到的问题及解决方法：
+#1.只能访问外网，无法访问国内网站。解决方法：将iptables -t nat -I POSTROUTING -j MASQUERADE复制到网络-防火墙-自定义规则，重启防火墙。
+#2.路由间歇性掉线，联网出现问题。解决方法：将网络-接口-eth0-修改-物理设置-取消勾选桥接接口，保存并应用，然后将iptables -t nat -I POSTROUTING -o eth0 -j MASQUERADE复制到网络-防火墙-自定义规则，重启防火墙。
 # Actions-OpenWrt
 
 
