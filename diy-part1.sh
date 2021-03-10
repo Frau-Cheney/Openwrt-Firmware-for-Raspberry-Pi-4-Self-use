@@ -10,6 +10,7 @@
 # Description: OpenWrt DIY script part 1 (Before Update feeds)
 #
 git clone https://github.com/fw876/helloworld package/luci-app-ssr-plus
+git clone git clone https://github.com/jerrykuku/lua-maxminddb.git  #git lua-maxminddb 依赖
 git clone https://github.com/jerrykuku/luci-app-vssr package/luci-app-vssr
 git clone https://github.com/garypang13/luci-app-bypass package/luci-app-bypass
 find package/*/ feeds/*/ -maxdepth 2 -path "*luci-app-bypass/Makefile" | xargs -i sed -i 's/shadowsocksr-libev-ssr-redir/shadowsocksr-libev-alt/g' {}
