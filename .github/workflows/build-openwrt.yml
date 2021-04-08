@@ -133,7 +133,7 @@ jobs:
       uses: actions/upload-artifact@main
       if: steps.organize.outputs.status == 'success' && !cancelled()
       with:
-        name: Openwrt-Firmware-for-Raspberry-Pi-4-Self-use-${{ env.DEVICE_NAME }}${{ env.FILE_DATE }}
+        name: Openwrt-Firmware-for-Raspberry-Pi-4-Self-use-${{ env.FILE_DATE }}
         path: ${{ env.FIRMWARE }}
 
     - name: Upload firmware to cowtransfer
